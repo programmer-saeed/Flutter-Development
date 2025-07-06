@@ -26,17 +26,17 @@ void main () {
   var mod = a % b;        // Arithmetic Operator
   print("A % B = $mod");
 
-  var a_pre_increase_value = ++sum;             //A increase just one and it is using pre increment unary operator
+  var a_pre_increase_value = ++sum;             //A pre increase just one and it is using pre increment unary operator
   print("Pre-Increment value of A = $a_pre_increase_value");
 
-  var a_pre_decrease = --a;  //A decrease just one and it is using pre decrement unary operator
+  var a_pre_decrease = --a;  //A pre decrease just one and it is using pre decrement unary operator
   print("Pre-Decrement value of A = $a_pre_decrease");
 
 
-  var b_post_increase = b++;   //B increase just one and it is using post increment unary operator
+  var b_post_increase = b++;   //B post increase just one and it is using post increment unary operator
   print("Post-Increment value of B = $b_post_increase");
 
-  var b_post_decrease = b--;   //B decrease just one and it is using post decrement unary operator
+  var b_post_decrease = b--;   //B post decrease just one and it is using post decrement unary operator
   print("Post-Decrement value of B = $b_post_decrease");
 
 }
